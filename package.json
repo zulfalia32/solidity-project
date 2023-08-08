@@ -1,15 +1,26 @@
 {
-  "name": "solidity-project",
+  "name": "xusd-smart-contract",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "XUSD ERC20 token smart contract",
+  "main": ".",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "kirkstapff",
   "license": "ISC",
   "dependencies": {
-    "truffle": "^5.11.2"
+    "@truffle/hdwallet-provider": "^2.1.13",
+    "dotenv": "^16.3.1",
+    "truffle": "^5.11.1",
+    "web3": "^4.0.3"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@openzeppelin/truffle-upgrades": "^1.19.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   }
 }
